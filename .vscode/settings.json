@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Module-1",
+            "group": "Course-6",
+            "database": "${workspaceFolder:IBM-Data-Science-Specialization}/Course-6_Databases-and-SQL/SanFranciscoFilmLocations.db"
+        }
+    ]
+}
