@@ -1,0 +1,29 @@
+LOAD DATA LOCAL INFILE '/Users/jelo/Desktop/IBM-Data-Science-Specialization/Course-6_Databases-and-SQL/Hands-on-Lab_6-2-2/PATIENTS.csv'
+INTO TABLE PATIENTS
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+LOAD DATA LOCAL INFILE '/Users/jelo/Desktop/IBM-Data-Science-Specialization/Course-6_Databases-and-SQL/Hands-on-Lab_6-2-2/MEDICAL_HISTORY.csv'
+INTO TABLE MEDICAL_HISTORY
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE '/Users/jelo/Desktop/IBM-Data-Science-Specialization/Course-6_Databases-and-SQL/Hands-on-Lab_6-2-2/MEDICAL_PROCEDURES.csv'
+INTO TABLE MEDICAL_PROCEDURES
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+LOAD DATA LOCAL INFILE '/Users/jelo/Desktop/IBM-Data-Science-Specialization/Course-6_Databases-and-SQL/Hands-on-Lab_6-2-2/MEDICAL_DEPARTMENTS.csv'
+INTO TABLE MEDICAL_DEPARTMENTS
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+LOAD DATA LOCAL INFILE '/Users/jelo/Desktop/IBM-Data-Science-Specialization/Course-6_Databases-and-SQL/Hands-on-Lab_6-2-2/MEDICAL_LOCATIONS.csv'
+INTO TABLE MEDICAL_LOCATIONS
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
