@@ -5,7 +5,14 @@
             "driver": "SQLite",
             "name": "Module-1",
             "group": "Course-6",
-            "database": "${workspaceFolder:IBM-Data-Science-Specialization}/Course-6_Databases-and-SQL/SanFranciscoFilmLocations.db"
+            "database": "${workspaceFolder:IBM-Data-Science-Specialization}/Course-6_Databases-and-SQL/Local DB/SanFranciscoFilmLocations.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Module-4",
+            "group": "Course-6",
+            "database": "${workspaceFolder:IBM-Data-Science-Specialization}/Course-6_Databases-and-SQL/Hands-on-Lab_6-4-1/INSTRUCTOR.db"
         }
     ]
 }
